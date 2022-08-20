@@ -1,0 +1,9 @@
+ALGORITHM algocount
+VAR
+    wordsn : INTEGER :=0; 
+    words : CHAR 
+BEGIN
+sum:= 0; 
+FOR wordsn FROM 0 TO CHAR.length+1 DO
+    sum:= sum +1 
+END
